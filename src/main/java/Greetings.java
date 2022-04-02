@@ -4,4 +4,8 @@ public class Greetings {
         return "Hello world";
     }
 
+    public int countCharacters(String word) {
+        return word.length();
+    }
+
 }
