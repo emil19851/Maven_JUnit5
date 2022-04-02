@@ -19,6 +19,12 @@ class CalculatorTest {
         assertEquals(1, calculator.subtract(2,1), "2 - 1 should equal 1");
     }
 
+    @Test
+    @DisplayName("The method should return \"Hello world \" ")
+    void sayHello() {
+        Greetings greetings = new Greetings();
+        assertEquals("Hello world", greetings.sayHello());
+    }
 
 
 
